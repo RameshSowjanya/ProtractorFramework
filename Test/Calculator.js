@@ -23,7 +23,6 @@ describe('demo calulator test',function(){
     it('substraction test', function(){
         homepage.get('http://juliemr.github.io/protractor-demo/');
         //browser.get('http://juliemr.github.io/protractor-demo/');
-        //browser.sleep(2000);
         homepage.enterFirstNumber(4);
         homepage.enterSecondNumber(5);
         //element(by.model('first')).sendKeys('2');
@@ -31,6 +30,8 @@ describe('demo calulator test',function(){
         homepage.clickGo1();
         //element(by.id('gobutton')).click();
         homepage.verifyResult('9');
+        browser.sleep(2000);
+
         //expect(element(by.className('ng-binding')).getText()).toEqual('6');
         
         //browser.driver.manage().window().setSize(1366, 728);
