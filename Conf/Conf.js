@@ -23,7 +23,7 @@ exports.config = {
   
     // Options to be passed to Jasmine.
     jasmineNodeOpts: {
-      defaultTimeoutInterval: 10000
+      defaultTimeoutInterval: 30000
     },
   
       // Setup the report before any tests start
